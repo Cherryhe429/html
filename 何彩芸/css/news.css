@@ -1,0 +1,146 @@
+body{
+	width:1366px;
+	margin:0;
+	padding:0;
+	margin:0 auto;
+	
+}
+ul,li{list-style: none; }
+.fl{float: left;}
+.fr{float: right;}
+.cle{*zoom:1;}
+.cle:after {content:"\200B"; display:block; height:0; clear:both;}
+.w1170{width: 1170px; margin: 0 auto;}
+a{text-decoration: none;color: white ;}
+a:hover{color:blue;}
+
+.news{width:100%;}
+
+.cle{*zoom:1;}
+.cle:after {content:"\200B"; display:block; height:0; clear:both;}
+/*头部 */
+.news .header{height:42px;background:#7c6aa6; position:relative;}
+/*.cle:{clear:"\200B";display:block;height:0;clear:both;}
+.index .head{width:100%;height:170px;position:fixed;top:0px;left:0;}*/
+.header div{float: left;}
+.image{margin-left:107px;}
+.header a{color:white;text-decoration:none;}
+.header a:hover{color:red;}
+.header .right{margin-left:649px;}
+
+.header .spn{color:white;margin:10px 5px;float:left;}
+.logo{height:96px;border-bottom:1px solid #e9e9e9;}
+.logo .fii{width:194px;border:1px solid white;}
+.logo div{float:left;font-size:14px;}
+.logo .one{width:180px;margin:30px 11px;}
+.logo .hai{color:#666;font-size:12px;}
+.logo .one div{margin-right: 11px;}
+.logo .one img{margin:10px 0px;}
+
+.logo .lian{width:102px;border:1px solid #59bcdb;color:#59bcdb;background:white;height:37px;margin:25px -100px;}
+.meun{height:85px;border-bottom:1px solid #e9e9e9;padding:0px 130px;box-sizing:border-box;}
+.meun ul li{list-style:none;float:left;width:120px;}
+.meun li{margin-top:20px;margin-left:10px;}
+.meun a{color:#333333;text-decoration:none;}
+.meun a:hover{color:#7B75A6;}
+.meun>ul>li>.scao{display: none;text-align:left;width:120px;}
+.meun>ul>li:hover>.scao{display: block;position:fixed;float:none;left:280px;background:white;z-index:999;}
+.meun>ul>li>.news{display: none;width:120px;}
+.meun>ul>li:hover>.news{display: block;position:fixed;float:none;left:680px;background:white;z-index:999;}
+
+
+.newsp{height:287px;background:url(../img/pattern-dark.png);color:white;font-size:60px;font-weight:600px;
+text-align:center;line-height:280px;}
+.content .shouye{width:100%;height:30px;border-bottom:1px solid #E9E9E9;margin-bottom:115px;}
+.content .shouye1{width:126px; height: 20px; margin-left: 75px; margin-top: 20px; font-size: 14px;}
+.content .shouye2{color: black; font-size: 14px;}
+.content .ness{color:#8E95A7;}
+
+.w1140{width:1140px;}
+.content .center{margin:0 auto;height:2800px;clear:left;}
+.content .center-left{width:815px;color:#959595;}
+.content .center-left .yun{font-size:36px;margin-bottom:55px;color:black;}
+.content .center-left .octber{height:50px;}
+.content .center-left .octber>div{float:left;margin-right:23px;}
+.content .center-left .octber>img{margin-top:10px;}
+.content .center-left .tong{font-size:16px;}
+.content .center-left .tong div{margin:23px 0px;}
+
+.content .center-left .bo{margin-top:38px;height:780px;border-top:1px solid #E9E9E9;width:800px;}
+.content .center-left .bo p{color:black;margin-top:80px;font-size:20px;}
+.content .center-left .bo .commente{clear:left;height:200px;margin-bottom:20px;}
+.content .center-left .bo .commente .leftt{margin-left:34px;}
+.content .center-left .bo .commente img{border-radius:50%;}
+.content .center-left .bo .commente a{color:black;font-size:16px;}
+.content .center-left .bo .commente div{font-size:14px;margin-top:5px;}
+.content .center-left .bo .commente .rightt{height:122px;background:#F5F5F5;width:660px;}
+.content .center-left .bo .commente .rightt div{margin-top:20px;text-align:center;}
+.content .center-left .bo .commente .rightt .hui{text-align:left;width:100px;font-size:14px;}
+.content .center-left .bo .commente .rightt img{margin:5px 5px 0px 5px;}
+.content .center-left .bo .commente .rightt a{color:#0B92CC;}
+.ma11{margin-left:200px;}
+.content .center-left .bo .commente1{clear:left;height:200px;}
+.content .center-left .bo .commente1 .leftt{margin-left:34px;}
+.content .center-left .bo .commente1 img{border-radius:50%;}
+.content .center-left .bo .commente1 a{color:black;font-size:16px;}
+.content .center-left .bo .commente1 div{font-size:14px;margin-top:5px;}
+.content .center-left .bo .commente1 .rightt{height:122px;background:#F5F5F5;width:560px;margin-left:300px;}
+.content .center-left .bo .commente1 .rightt div{margin-top:20px;padding:00px 0px 10px 10px;box-sizing: border-box;}
+.content .center-left .bo .commente1 .rightt .hui{text-align:left;width:100px;font-size:14px;}
+.content .center-left .bo .commente1 .rightt img{margin:5px 5px 0px 5px;}
+.content .center-left .bo .commente1 .rightt a{color:#0B92CC;}
+
+.content .center-left .from{height:100px;}
+.content .center-left .from .input{width:236px;height:50px;border:1px solid #EAEAEA;background:#FCFCFC;margin-right:15px;
+color:#9D9BA0;font-size:16px;padding-left:20px;box-sizing: border-box;}
+.content .center-left .from .area{background:#FCFCFC;margin-top:20px;border:1px solid #EAEAEA;}
+.content .center-left .from .button{width:100px;height:35px;color:#36C1EA;border:2px solid #36C1EA; background:white;
+margin-top:20px;border-radius:5px;margin-left:650px;}
+.content .center-left .from .button:hover{width:100px;height:35px;color:white;border:2px solid #36C1EA;background:#36C1EA;}
+
+.content .center-right{width:258px;height:1000px;font-size:15px;}
+.content .center-right .table1{width:255px;border:1px solid #E4E4E4;margin-bottom:30px;}
+.content .center-right .table2{width:255px;border:1px solid #E4E4E4;margin-bottom:30px;}
+.content .center-right .tabl1{width:255px;border-bottom:1px solid #E4E4E4;height:68px;background:#FAFAFA;font-size:20px;
+line-height:60px;padding:15px;box-sizing: border-box;}
+.content .center-right .tabl{width:255px;border-bottom:1px solid #E4E4E4;height:58px;line-height:40px;padding:10px;
+box-sizing: border-box;color:#9B9B9B;}
+.content .center-right .tabl2{width:255px;height:58px;line-height:40px;padding:10px;
+box-sizing: border-box;color:#9B9B9B;}
+.content .center-right .tabl3{width:255px;border-bottom:1px solid #E4E4E4;height:82px;line-height:20px;padding:10px 10px;
+box-sizing: border-box;color:#9B9B9B;}
+.content .center-right .tabl4{width:255px;height:82px;line-height:20px;padding:10px 10px;
+box-sizing: border-box;color:#9B9B9B;}
+.content .center-right .num{width:255px;border-bottom:1px solid #E4E4E4;height:160px;line-height:25px;padding:10px 10px;
+box-sizing: border-box;color:#9B9B9B;}
+.content .center-right .num2{width:255px;height:205px;line-height:25px;padding:10px 10px;box-sizing: border-box;color:#9B9B9B;}
+
+.content .tel{height:695px; background:url(../img/pattern-light.png);text-align:center;color:#959F96}
+.content .tel img{margin:50px 122px 40px;}
+.content .tel .tel1{height:385px;width:294px;border:1px solid #E8E8E8;float:left;margin-top:170px;margin-left:145px;background:white;}
+.content .tel .tel2{height:385px;width:294px;border:1px solid #E8E8E8;float:left;margin-top:170px;margin-left:97px;background:white;}
+.content .tel button{width:160px;height:45px;border:2px solid #59BCDB;color:#59BCDB;background:#ffffff;font-size:16px;border-radius:5px;}
+.content .tel button:hover{width:160px;height:45px;border:2px solid #59BCDB;color:#ffffff;background:#59BCDB;font-size:16px;}
+
+/*底部*/
+ 
+.footed{background: url(../img/footer.jpg) no-repeat;}
+.footed1{background: #3a3e61; opacity:  .9;}
+.footed_content{padding:60px 0;color: white;}
+.footed_content h4{font-size:18px;font-weight: bold;}
+
+.foot_aboutme{width:20.5%;}
+.footed_content .foot_aboutme p{line-height:25px;padding:10px 0 ;font-size: 16px;margin: 10px 0;}
+
+.foot_centent .foot_centent_cont{margin:10px; margin-left: 60px;}
+.foot_centent .foot_centent_cont ul{width: 200px;}
+.foot_centent .foot_centent_cont ul li{line-height: 50px;border-bottom: 1px solid;width: 200px; font-size: 16px; color: white;}
+.foot_details{width:250px; height: 251px;margin-left: 60px;}
+.div1{width: 250px; height: 30px; margin-top: 26px;font-size: 14px;}
+.div2{width: 250px; height: 30px; margin-top: 20px;font-size: 14px;}
+.div3{width: 250px; height: 48px; margin-top: 20px;font-size: 14px;}
+.zuo{width: 26px; height: 18px; padding-top: 2px;}
+.you{width: 167px; height: 20px;}
+.you1{width: 60px; height: 20px;}
+.you2{width: 66px; height: 20px;}
+.you3{color: #228adf;}
